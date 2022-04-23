@@ -13,10 +13,18 @@ jobs:
     steps:
 
     - uses: actions/checkout@v2
+    - name: HTML5Validator
 
-    - name: Checks HTML5
-      uses: Cyb3r-Jak3/html5validator-action@master
+      uses: Cyb3r-Jak3/html5validator-action
+
       with:
+
         root: git-workflow/
-        log_level: DEBUG
+
+        blacklist: invalid
+
+
+
+
+
 
