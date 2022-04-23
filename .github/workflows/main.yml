@@ -17,5 +17,6 @@ jobs:
     - name: Checks HTML5
       uses: Cyb3r-Jak3/html5validator-action@master
       with:
-        root: .
+        root: git-workflow/index.html
         log_level: DEBUG
+
