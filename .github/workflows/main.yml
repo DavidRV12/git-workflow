@@ -14,13 +14,9 @@ jobs:
 
     - uses: actions/checkout@v2
     - name: HTML5Validator
-
       uses: Cyb3r-Jak3/html5validator-action
-
       with:
-
-        root: git-workflow/
-
+       root: git-workflow/
         blacklist: invalid
 
 
